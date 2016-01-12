@@ -1,0 +1,18 @@
+Package: simTestSize
+Type: Package
+Title: determine optimal test set size for simulation studies
+Version: 1.0
+Date: 2015-2-16
+Author: Mathias Fuchs
+Maintainer: Mathias Fuchs <fuchs@ibe.med.uni-muenchen.de>
+Description: This package's purpose is to provide guidance to a researcher who
+    is about to perform a simulation study that involves drawing artificial
+    training data and assessing the method's performance on testing data drawn
+    from the same distribution. The main function simTestSize takes a training
+    algorithm as argument and outputs an estimator for the optimal test set
+    size, together with a confidence interval. The package is based on theory
+    that states that the optimal test set size is determined by a function of
+    the ratio of the variances of the conditional error rates to the average
+    variance across test observations.
+Imports: e1071, microbenchmark
+License: GPL

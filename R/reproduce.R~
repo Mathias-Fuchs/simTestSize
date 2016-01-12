@@ -1,0 +1,13 @@
+#' reproduce
+#'
+#' function to reproduce the tables in the paper
+#' @return 
+#' @export
+
+
+reproduce <- function() {
+
+}
+
+
+
